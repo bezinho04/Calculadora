@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Completa</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="hero-panel">
+            <div class="hero-copy">
+                <span class="eyebrow">Calculadora Completa</span>
+                <h1>Precisão, velocidade e design inteligente</h1>
+                <p>Uma calculadora moderna e responsiva para suas contas do dia a dia. Suporta operações básicas, porcentagem, sinal e correção rápida com um layout elegante.</p>
+                <ul class="hero-features">
+                    <li>Interface clara e profissional</li>
+                    <li>Botões para apagar, limpar e trocar sinal</li>
+                    <li>Suporte a ponto decimal e porcentagens</li>
+                </ul>
+            </div>
+            <article class="calculator-card" aria-label="Calculadora completa">
+                <div class="calculator-screen">
+                    <div class="calculator-history" id="history">0</div>
+                    <div class="calculator-result" id="result">0</div>
+                </div>
+                <div class="calculator-grid">
+                    <button class="button button-secondary" data-action="clear">C</button>
+                    <button class="button button-secondary" data-action="delete">DEL</button>
+                    <button class="button button-secondary" data-action="toggle-sign">±</button>
+                    <button class="button button-operator" data-action="percent">%</button>
+
+                    <button class="button" data-number="7">7</button>
+                    <button class="button" data-number="8">8</button>
+                    <button class="button" data-number="9">9</button>
+                    <button class="button button-operator" data-action="/">÷</button>
+
+                    <button class="button" data-number="4">4</button>
+                    <button class="button" data-number="5">5</button>
+                    <button class="button" data-number="6">6</button>
+                    <button class="button button-operator" data-action="*">×</button>
+
+                    <button class="button" data-number="1">1</button>
+                    <button class="button" data-number="2">2</button>
+                    <button class="button" data-number="3">3</button>
+                    <button class="button button-operator" data-action="-">−</button>
+
+                    <button class="button" data-number="0">0</button>
+                    <button class="button" data-number=".">.</button>
+                    <button class="button button-equal" data-action="=">=</button>
+                    <button class="button button-operator" data-action="+">+</button>
+                </div>
+                <div class="calculator-controls">
+                    <strong>Controles do teclado</strong>
+                    <p>Use o teclado numérico ou as teclas principais: <kbd>0–9</kbd>, <kbd>.</kbd>, <kbd>+</kbd>, <kbd>-</kbd>, <kbd>*</kbd>, <kbd>/</kbd>, <kbd>Enter</kbd>, <kbd>Backspace</kbd> e <kbd>Esc</kbd>.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
